@@ -76,7 +76,7 @@ where you can:
 
 ### One-time payments
 
-Yu may choose to publish an advert without purchasing a subscription plan. In such case, 
+You may choose to publish an advert without purchasing a subscription plan. In such case, 
 you will be redirected to a checkout page of a one-time payment for Advert Publication for 30 days.
 
 Upon successful payment, your advert will be published, and will get assigned an expiration date of 30 days since publication.
