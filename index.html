@@ -20,7 +20,7 @@
     }
 
     body, .sidebar {
-      background-image: url("/assets/background.png");
+      background-image: url("assets/background.png");
       background-attachment: fixed;
       background-repeat: no-repeat;
     }
@@ -30,20 +30,20 @@
 <div id="app">Loading...</div>
 <script>
   window.$docsify = {
-    basePath: '/',
+<!--    basePath: '/',-->
     homepage: 'home.md',
+    name: ' ', //non-empty, otherwise logo won't show up
+    logo: 'logo/favicon.svg',
     executeScript: true,
     loadSidebar: 'navi.md',
     autoHeader: true,
     auto2top: true,
-    //maxLevel   : 3,
-    subMaxLevel: 3,
+    subMaxLevel: 3
   };
 </script>
 <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
 </body>
 </html>
