@@ -1,4 +1,4 @@
-## Regulamin
+## Terms and Conditions
 
 [ReelJobs.Regulamin.PL.pdf](../ReelJobs.Regulamin.PL.pdf ':ignore')
 
